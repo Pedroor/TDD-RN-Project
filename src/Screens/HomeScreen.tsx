@@ -20,7 +20,7 @@ function HomeScreen() {
    
       </View>
       <WeatherCurrent />
-      <Text testID="home-screen-divider" style={styles.divider}>__</Text>
+      <Text testID="home-screen-divider" style={styles.divider}>Or</Text>
       <WeatherCoordinates />
     </View>
   )

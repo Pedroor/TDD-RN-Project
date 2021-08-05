@@ -10,7 +10,6 @@ function HomeScreen() {
   const now = Moment(new Date())
   const teste = { nome: 'daniel', age: 10 }
   const meme = { ...teste, camisa: 'amarela' }
-  console.log(meme)
 
   return (
     <View testID="home-screen" style={styles.container}>
